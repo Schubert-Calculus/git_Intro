@@ -73,9 +73,9 @@ after this command.
 9) Refresh your github page and you will see your tutorial file is now in the git_Intro folder in the
 Schubert-Calculus project. This file isn't actually useful to our project, so let's remove it.
 
-10) In your console window, make sure you are in the Schubert-Calculus folder then type 
+10) In your console window, make sure you are in the git_Intro folder then type 
 'git pull master'. This will make sure that all of the files on your computer are up to date with 
-the files in the repository. THIS SHOULD ALWAYS BE DONE BEFORE EDITING ANY FILE!!!
+the files in the repository. THIS SHOULD ALWAYS BE DONE TO YOUR FOLDERS BEFORE EDITING ANY FILE!!!
 
 11) Go back into your git_Intro folder and delete the file named <my_name>_tutorial.txt
 
