@@ -1,9 +1,14 @@
-This is intended to be a bare-bones introduction to git. It will allow one to quickly pick up just enough about git to be able to contribute to the github project. 
+This is intended to be a bare-bones introduction to git. It will allow one 
+to quickly pick up just enough about git to be able to contribute to the 
+github project. 
 
 
 * Installing git
 
-If you are on your office computer, you probably already have git on your machine. You can confirm this by opening your terminal window and typing "which git" to display the path where it is installed. For your personal computers, there are instructions for each operating system found here:
+If you are on your office computer, you probably already have git on your 
+machine. You can confirm this by opening your terminal window and typing 
+"which git" to display the path where it is installed. For your personal 
+computers, there are instructions for each operating system found here:
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 
@@ -41,7 +46,9 @@ git push origin master
 
 * Tutorial
 
-This tutorial will take you through the above commands using the git_Intro repository to familiarize yourself with the process. The commands below are assuming you use command line git. Commands that should be typed are written in 'single quotations'.
+This tutorial will take you through the above commands using the git_Intro repository to familiarize
+yourself with the process. The commands below are assuming you use command line git. Commands that
+should be typed are written in 'single quotations'.
 
 1) Create a folder on your desktop named Schubert-Calculus
 
@@ -49,19 +56,26 @@ This tutorial will take you through the above commands using the git_Intro repos
 
 3) Type the command 'git clone https://github.com/Schubert-Calculus/git_Intro'
 
-4) Your Schubert-Calculus folder should now have a folder inside of it called git_Intro. Open up a text editor and write 'Hello World'. Save the file as '<my_name>_tutorial.txt' in your git_Intro folder, then exit the text editor.
+4) Your Schubert-Calculus folder should now have a folder inside of it called git_Intro. Open up a
+text editor and write 'Hello World'. Save the file as '<my_name>_tutorial.txt' in your git_Intro
+folder, then exit the text editor.
 
-5) Back in your console window, move to the git_Intro folder. Type 'git status'. You will see that you have made changes to the git_Intro folder that haven't been uploaded yet.
+5) Back in your console window, move to the git_Intro folder. Type 'git status'. You will see that
+you have made changes to the git_Intro folder that haven't been uploaded yet.
 
 6) Type 'git add <my_name>_tutorial.txt'. 
 
 7) Type 'git commit -m "Adding my tutorial file"'
 
-8) Type 'git push origin master'. You will likely be asked for your github username and password after this command.
+8) Type 'git push origin master'. You will likely be asked for your github username and password
+after this command.
 
-9) Refresh your github page and you will see your tutorial file is now in the git_Intro folder in the Schubert-Calculus project. This file isn't actually useful to our project, so let's remove it.
+9) Refresh your github page and you will see your tutorial file is now in the git_Intro folder in the
+Schubert-Calculus project. This file isn't actually useful to our project, so let's remove it.
 
-10) In your console window, make sure you are in the Schubert-Calculus folder then type 'git pull master'. This will make sure that all of the files on your computer are up to date with the files in the repository. THIS SHOULD ALWAYS BE DONE BEFORE EDITING ANY FILE!!!
+10) In your console window, make sure you are in the Schubert-Calculus folder then type 
+'git pull master'. This will make sure that all of the files on your computer are up to date with 
+the files in the repository. THIS SHOULD ALWAYS BE DONE BEFORE EDITING ANY FILE!!!
 
 11) Go back into your git_Intro folder and delete the file named <my_name>_tutorial.txt
 
